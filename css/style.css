@@ -1,0 +1,149 @@
+@media  (max-width: 768px) {
+    .display{
+        display: none;
+    }
+}
+
+
+
+.project-tile{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 5%;
+    
+}
+
+.title{
+    text-align: center;
+    padding-top: 19%;
+}
+
+.title  h1{
+    color: aliceblue;
+    font-size: 45px;
+}
+.title p{
+    color: lightpink;
+    font-size: 25px;
+}
+
+.welcome h1{
+    color: aliceblue;
+}
+.welcome p{
+    color: lightpink;
+}
+
+.project-img{
+    margin: auto;
+    width: 100%;
+    height: 24em;
+}
+
+.project-link{
+    text-align: center;
+    background-color: #303841;
+}
+
+.project-link h3{
+    text-decoration: none;
+    color: azure;
+    font-size: large;
+}
+.fixed{
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .welcome-section{
+    background-color: #2A2B2D;
+    height: 100vh;
+    
+    margin-top: -21px;
+  }
+  .final-section{
+    background-color: #2A2B2D;
+    height: 250px;
+    margin-top: -55px;
+    text-align: center;
+  }
+
+  .final-section h1{
+      padding: 12px;
+    font-size: 65px;
+  }
+
+  
+
+  .projects{
+      background-color: #45567D;
+      margin-top: -40px;
+  }
+
+  .projects h1{
+      font-size: 47px;
+      color: azure;
+      text-decoration: underline;
+      text-align: center;
+      padding: 28px;
+  }
+
+  .projects-container{
+      
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    background-color: #2A2B2D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .align-button{
+      text-align: center;
+  }
+
+  
