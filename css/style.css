@@ -4,6 +4,12 @@
     }
 }
 
+@media (max-width: 28.75em) {
+    .projects-section-header {
+      font-size: 4rem;
+    }
+  }
+
 
 
 .project-tile{
